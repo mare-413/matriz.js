@@ -4,6 +4,7 @@ Bare bones Matrix library in 300 lines.
 ```javascript
 //Creating an empty 5x5 matrix
 let m = new Matrix(5, 5);
+//Objects stores 'rows', 'cols', and a 2D array 'vals'.
 
 //Randomizing the matrix with numbers from -1 to 1
 m.randomize(-1, 1);
